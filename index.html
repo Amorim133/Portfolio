@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breno Amorim | Portfólio</title>
+
+  <!-- Fonte do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Arquivo de estilos -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== CABEÇALHO ========== -->
+  <header class="cabecalho">
+    <a href="#inicio" class="logo">&lt;Breno <span>/&gt;</span></a>
+
+    <nav id="menu" class="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#formacao">Formação</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
+
+    <div class="acoes">
+      <button id="botao-tema" class="botao-tema" title="Mudar tema">☀</button>
+      <button id="botao-menu" class="botao-menu" title="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== INÍCIO ========== -->
+    <section id="inicio" class="inicio">
+      <div class="inicio-texto">
+        <p class="saudacao">Olá, meu nome é</p>
+        <h1>Breno Amorim</h1>
+        <p class="subtitulo">Estudante de Sistemas de Informação na UDF</p>
+        <p class="frase">Proativo, comunicativo e sempre disposto a aprender coisas novas.</p>
+
+        <div class="botoes">
+          <a href="#projetos" class="botao">Ver projetos</a>
+          <a href="#sobre" class="botao botao-contorno">Sobre mim</a>
+        </div>
+      </div>
+
+      <img src="imagens/BreBre.jpeg" alt="Foto de Breno Amorim" class="foto">
+    </section>
+
+    <!-- ========== SOBRE MIM ========== -->
+    <section id="sobre">
+      <h2 class="titulo-secao">Sobre mim</h2>
+
+      <div class="sobre-conteudo">
+        <div class="sobre-texto">
+          <p>Sou proativo, comunicativo, organizado e gosto de aprender coisas novas. Tenho experiência com atividades administrativas, organização de projetos e gestão de ambientes virtuais de aprendizagem.</p>
+          <p>Busco crescer profissionalmente e desenvolver minhas habilidades na área de tecnologia.</p>
+        </div>
+
+        <ul class="sobre-info">
+          <li><strong>Curso:</strong> Sistemas de Informação</li>
+          <li><strong>Faculdade:</strong> UDF</li>
+          <li><strong>Área de interesse:</strong> Tecnologia</li>
+          <li><strong>Experiência:</strong> Atividades administrativas, organização de projetos e ambientes virtuais de aprendizagem</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== FORMAÇÃO ========== -->
+    <section id="formacao">
+      <h2 class="titulo-secao">Formação</h2>
+
+      <div class="linha-tempo">
+        <div class="item-tempo">
+          <span class="periodo">Em andamento</span>
+          <h3>Sistemas de Informação</h3>
+          <p>UDF</p>
+        </div>
+
+        <div class="item-tempo">
+          <span class="periodo">Concluído</span>
+          <h3>Ensino Médio</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HABILIDADES ========== -->
+    <section id="habilidades">
+      <h2 class="titulo-secao">Habilidades</h2>
+
+      <div class="habilidades">
+        <div class="caixa-habilidade">
+          <h3>Técnicas</h3>
+          <ul class="tags">
+            <li>Lógica de programação</li>
+            <li>GitHub</li>
+            <li>Google Workspace</li>
+            <li>Ferramentas digitais</li>
+            <li>Organização de projetos</li>
+          </ul>
+        </div>
+
+        <div class="caixa-habilidade">
+          <h3>Pessoais</h3>
+          <ul class="tags">
+            <li>Comunicação</li>
+            <li>Criatividade</li>
+            <li>Proatividade</li>
+            <li>Organização</li>
+            <li>Trabalho em equipe</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJETOS ========== -->
+    <section id="projetos">
+      <h2 class="titulo-secao">Projetos</h2>
+
+      <div class="projetos">
+        <article class="card-projeto">
+          <h3>Portfólio pessoal</h3>
+          <p>Este site, feito do zero para apresentar quem eu sou, minha formação, minhas habilidades e meus projetos.</p>
+          <p class="tecnologias">HTML · CSS · JavaScript</p>
+        </article>
+
+        <article class="card-projeto">
+          <h3>Sistema de acessibilidade bancária</h3>
+          <p>Sistema pensado para tornar os serviços bancários mais acessíveis, facilitando o uso por pessoas com diferentes necessidades.</p>
+        </article>
+
+        <!-- card com borda tracejada, para projetos que ainda vão ser feitos -->
+        <article class="card-projeto card-futuro">
+          <h3>Futuros projetos acadêmicos</h3>
+          <p>Novos projetos que vou desenvolver ao longo do curso de Sistemas de Informação. Em breve aqui!</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="rodape">
+    <p>&copy; <span id="ano"></span> Breno Amorim. Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <!-- O script fica no final para carregar depois do HTML -->
+  <script src="js/script.js"></script>
+</body>
+</html>
